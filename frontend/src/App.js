@@ -1,3 +1,4 @@
+
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import EmployeeList from "./pages/employee/EmployeeList";
@@ -21,6 +22,12 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
+
+import HRDashboard from "./pages/hr/HRDashboard";
+
+function App() {
+  return <HRDashboard />;
+
 }
 
 export default App;
